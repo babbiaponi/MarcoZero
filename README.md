@@ -6,7 +6,9 @@ Exercicio de HTML - curso de FRONT END pela PROZ EDUCAÇÃO
 ## O objretivo do exercicio era apresentar a página com o seguinte:
 - A página precisa ter cabeçalho, conteúdo e rodapé;
 - A página precisa ter imagens; 
-- Use a tag de semântica textual inline. 
+- Use a tag de semântica textual inline.
+
+- Clique aqui para verificar https://github.com/babbiaponi/MarcoZero/tree/master
 
 ## Tecnologias Utilizadas
 
