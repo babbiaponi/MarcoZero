@@ -1,70 +1,128 @@
+/* estilo.css */
+
 /* Estilo para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
+    background-color: #fcebfc; /* Cor de fundo rosa para todo o corpo da página */
+    margin: 0; /* Remova as margens */
+    padding: 0; /* Remova o preenchimento */
+  }
+ 
 
-/* Estilo para o cabeçalho */
+/* Defina o estilo do cabeçalho */
 header {
-    background-color: #007BFF;
-    color: #fff;
+    background: linear-gradient(45deg, red, rgba(255, 102, 0, 0.945), yellow, rgb(25, 122, 66), rgb(2, 198, 247), indigo, violet);
+    padding: 100px;
     text-align: center;
-    padding: 20px;
-}
-
-header h1 {
+    color: white;
+    margin-bottom: 0;
+  }
+  
+  /* Estilo para o título no cabeçalho */
+  header h1 {
+    font-size: 80px;
     margin: 0;
-}
-
-/* Estilo para as imagens */
-img {
+    margin-bottom: 0;
+  }
+  
+  /* Estilo para a imagem no cabeçalho */
+  header img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Estilo para o menu de navegação */
-nav ul {
+    margin-bottom: 0;
+  }
+  
+  /* Estilo para a navegação */
+nav {
+    background-color:#fcebfc;
+    color: rgb(255, 0, 128); 
+    text-align: right;
+    padding: 10px; /* espaçamento */
+    margin-bottom: 0;
+  }
+  
+  /* Estilo para a lista não ordenada na navegação */
+  nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    background-color: #333;
-    text-align: center;
-}
-
-nav li {
+    margin-bottom: 0;
+  }
+  
+  /* Estilo para os itens da lista na navegação */
+  nav ul li {
     display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Estilo para as seções */
-section {
+    margin-bottom: 0;
+  }
+  
+  /* Estilo para os links na navegação */
+nav ul li a {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 5px;
+    font-size: 20px;
+    color: #ff00bf; 
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #fcebfc; /* Cor de fundo */
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  /* Estilo para as seções do conteúdo */
+  section {
+    max-width: 1200px; /* Ajuste conforme necessário */
+    margin: auto ; /* Centralize as seções horizontalmente */
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 20px; /* Adicione preenchimento para espaçamento interno */
+    background-color: #fcebfc; /* Cor de fundo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombreamento suave */
+    margin-bottom: 200px; /* Espaçamento entre as seções */
+    section h2 {
+        font-size: 46px; /* Tamanho da fonte para os títulos */
+        color: #333; /* Cor do texto do título */
+        margin-bottom: 20px; /* Espaçamento inferior do título */
+    section p {
+        font-size: 50px; /* Tamanho da fonte para os parágrafos */
+        line-height: 1.8; /* Espaçamento entre linhas para melhor legibilidade */
+        color: #020202; /* Cor do texto do parágrafo */
+        }
+    }
+  section img {
+  max-width: 100%; /* Imagens redimensionáveis dentro das seções */
+  height: auto;
+  display: block; /* Remova margens brancas indesejadas em torno das imagens */
+  margin: 0 auto /* Centralize as imagens horizontalmente */
+  }
+  section ul {
+  list-style-type: square /* Estilo de marcador de lista (pode ser "circle" ou "square" também) */
+  margin-left: 0px; /* Espaçamento à esquerda para recuar a lista */
+  }
 }
-
-section h2 {
-    color: #007BFF;
-}
-
-section p {
-    line-height: 1.4;
-}
-
-/* Estilo para o rodapé */
-footer {
-    background-color: #007BFF;
-    color: #fff;
+  
+  /* Defina a regra de Flexbox para as seções */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+  
+  /* Estilo para as imagens nas seções */
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    padding: 10px;
     text-align: center;
-    padding: 10px 0;
-}
+    color: white;
+    font-size: small;
+  }
+  
