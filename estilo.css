@@ -97,7 +97,7 @@ nav ul li a {
   }
   section ul {
   list-style-type: square /* Estilo de marcador de lista (pode ser "circle" ou "square" também) */
-  margin-left: 0px; /* Espaçamento à esquerda para recuar a lista */
+  margin-left 0px; /* Espaçamento à esquerda para recuar a lista */
   }
 }
   
